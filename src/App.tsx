@@ -1,4 +1,4 @@
-import DisplayWeather from "./components/DisplayWeather/DisplayWeather";
+import DisplayWeather from "./components/displayWeather/DisplayWeather";
 import "./App.css";
 
 function App() {

@@ -4,12 +4,11 @@ import { useEffect, useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { WiHumidity } from "react-icons/wi";
 import { RiWindyLine } from "react-icons/ri";
-
 import { RiLoader2Fill } from "react-icons/ri";
 
-import { MainWrapper } from "./weather.module";
-import { API_ENDPOINT, API_KEY, CALC_WIND_SPEED } from "../../ConstData";
-import { WeatherDataProps } from "../../WeatherDataProps";
+import { MainWrapper } from "./Weather.module";
+import { API_ENDPOINT, API_KEY, CALC_WIND_SPEED } from "../../data/ConstData";
+import { WeatherDataProps } from "../../weatherDataProps/WeatherDataProps";
 import { iconChanger } from "../IconChanger";
 
 export default function DisplayWeather() {
